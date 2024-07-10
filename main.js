@@ -1,3 +1,3 @@
-const isEmail = require('validator/lib/isEmail');
-isEmail('@iudcn')
-console.log(isEmail('@iudcn'));
+// const isEmail = require('validator/lib/isEmail');
+// isEmail('@iudcn')
+// console.log(isEmail('@iudcn'));

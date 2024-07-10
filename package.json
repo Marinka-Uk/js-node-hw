@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parsel",
+    "start": "parcel",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marina's project",
   "license": "ISC",
   "dependencies": {
+    "@pnotify/core": "^5.2.0",
     "http-server": "^14.1.1",
+    "parcel": "^2.12.0",
     "validator": "^13.12.0"
   }
 }
