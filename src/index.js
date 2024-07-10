@@ -1,8 +1,8 @@
 
-// import { alert, notice, info, success, error } from '@pnotify/core';
+import { alert, notice, info, success, error } from '@pnotify/core';
 
-// const keysArray = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'o', 'p', 'i' ];
-// let currentKeyIndex = 0; 
-// keysArray[5]
-// console.log(keysArray);
+const keysArray = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'o', 'p', 'i' ];
+let currentKeyIndex = 0; 
+keysArray[5]
+console.log(keysArray);
 
