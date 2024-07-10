@@ -1,6 +1,3 @@
-const myButton = document.getElementById('btn');
-function buttonClick() {
-    alert('Button was clicked!');
-}
-myButton.addEventListener('click', buttonClick);
-console.log(myButton);
+const isEmail = require('validator/lib/isEmail');
+isEmail('@iudcn')
+console.log(isEmail('@iudcn'));
